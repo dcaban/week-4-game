@@ -1,0 +1,131 @@
+body{
+background-color: #36538b;
+}
+
+#slurm {
+    height: 200px;
+    width: 250px;
+
+}
+#fishy{
+
+    width: 200px;
+    height: 200px;
+}
+
+#bachelor{
+    height: 200px;
+    width: 270px;
+}
+
+#manwich{
+    height: 180px;
+    width: 300px;
+}
+
+.jumbotron{
+    height: 100vh;
+}
+#heading{
+
+    background-image: url('images/futurama.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(126,209,225);
+    margin-bottom: 0;
+
+}
+
+h1 {
+    font-size: 100px;
+    -webkit-text-stroke: 3px #f6ed69;
+    background: -webkit-linear-gradient(black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    margin-bottom: 0px;
+
+
+
+}
+
+#mom{
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(25,27,39);
+    margin-bottom: 0;
+
+}
+
+#slur{
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(161,191,248);
+    margin-bottom: 0;
+}
+
+
+
+
+#mother{
+    margin:auto;
+    height: 60%;
+}
+
+.panel{
+    margin: 15px;
+
+    border: solid lightgray 3px;
+    border-radius: 10px;
+}
+
+.panel-title{
+    background-color: #00ff7f;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: solid lightgray 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0px;
+    color: darkslategray;
+}
+
+#lastImage{
+    padding-top: 40px;
+}
+
+.container{
+
+    margin-top: -20px;
+}
+
+.panel-body{
+    padding-top: 15px;
+    background-color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+
+@media only screen and (max-width: 772px) {
+    h1 {
+        -webkit-text-stroke:2px #f6ed69;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1599px){
+    #slurmy{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #slurmy {
+
+       height: 80%;
+    }
+}

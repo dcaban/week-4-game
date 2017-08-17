@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple crystal game</title>
+    <!-- Here we added a link to the jQuery library -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- linking bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- linking css -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+<body>
+
+
+<!--make h1 and game info-->
+
+    <div id="heading" class="jumbotron text-center">
+        <h1>FOODTURAMA GAME</h1>
+
+    </div>
+
+    <div id="mom" class="jumbotron text-center">
+        <h2>Presented To You By</h2>
+        <img id="mother"  src="assets/images/moms.jpg">
+    </div>
+    <div id="slur" class="jumbotron text-center">
+    <h2>Also Brought To You By</h2>
+        <img id="slurmy" src="assets/images/slurmy.png">
+    </div>
+<!--images get id so we can use target them with scripts-->
+<div id="lastImage">
+
+<div class="container text-center">
+   <div class="panel">
+    <div class="panel-heading">
+    <h2 class="panel-title">Clicking on food below gives you a mystery amount of points.</h2>
+    </div>
+       <div class="panel-body">
+    <img id="slurm" src="assets/images/Slurm.png">
+        <img id="fishy" src="assets/images/fishy.png">
+        <img id="bachelor" src="assets/images/bachelor.png">
+        <img id="manwich" src="assets/images/manwich.png">
+       </div>
+   </div>
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title">Match total score to this number.</h4>
+        </div>
+        <div class="panel-body">
+            <h1 id="randoNum">...</h1>
+
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title">Food value is hidden until clicked on.</h4>
+        </div>
+        <div class="panel-body">
+            <h1 id="userGuess">0</h1>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+    <div class="panel panel-body">
+        <h2>Wins:</h2><span id="wins">0</span>
+        <h2>Losses:</h2><span id="losses">0</span>
+        </h2>
+    </div>
+</div>
+
+ <div >
+    <img src="assets/images/express.jpg" style="height:200px;">
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+<!-- linking external javascript -->
+
+<script src="assets/game.js">
+
+
+</script>
+</body>
+</html>
