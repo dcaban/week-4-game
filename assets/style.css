@@ -1,6 +1,14 @@
 body{
 background-color: #36538b;
 }
+#scroll{
+
+    position: relative;
+    bottom: -100px;
+    opacity: 0.3;
+
+
+}
 
 #slurm {
     height: 200px;
@@ -50,7 +58,7 @@ h1 {
 }
 
 #mom{
-    color: white;
+    color: #e1dae3;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(25,27,39);
@@ -70,7 +78,7 @@ h1 {
 
 
 #mother{
-    margin:auto;
+    margin:#e1dae3;
     height: 60%;
 }
 
@@ -115,6 +123,31 @@ h1 {
         -webkit-text-stroke:2px #f6ed69;
         font-size: 50px;
     }
+    #slurm {
+        height: 80px;
+        width: 120px;
+
+    }
+    #fishy{
+
+        width: 80px;
+        height: 80px;
+    }
+
+    #bachelor{
+        height: 80px;
+        width: 130px;
+    }
+
+    #manwich{
+        height: 80px;
+        width: 100px;
+    }
+
+    #scroll{
+        margin-top: 70%;
+    }
+
 }
 
 @media only screen and (max-width: 1599px){
