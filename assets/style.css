@@ -4,8 +4,9 @@ background-color: #36538b;
 #scroll{
 
     position: relative;
-    bottom: -100px;
-    opacity: 0.3;
+    top: 50vh;
+    opacity: 0.2;
+    height: 260px;
 
 
 }
@@ -56,6 +57,8 @@ h1 {
 
 
 }
+
+
 
 #mom{
     color: #e1dae3;
@@ -115,7 +118,14 @@ h1 {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+@media only screen and (max-width: 1081px){
+    #scroll{
+        position: relative;
+    top: 40vh;
+    opacity: 0.3;
 
+    }
+}
 
 
 @media only screen and (max-width: 772px) {
@@ -145,16 +155,21 @@ h1 {
     }
 
     #scroll{
-        margin-top: 70%;
+        position: relative;
+    top: 55vh;
+    opacity: 0.3;
+
     }
 
 }
 
 @media only screen and (max-width: 1599px){
     #slurmy{
-        width: 90%;
+        width: 60%;
     }
 }
+
+
 
 @media only screen and (min-width: 1600px) {
     #slurmy {
