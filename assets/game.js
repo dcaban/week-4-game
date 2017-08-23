@@ -80,6 +80,7 @@ var reset = function () {
     $("#randoNum").text(randomNumber);
 
     //reset userNumber
+    $("#userGuess").text("0");
     userNumber = 0;
 
     //reset numbers for each food item
